@@ -1,0 +1,15 @@
+{
+    "name": "artster",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "\u001b[43~\u001b[43;6~"
+    },
+    "author": "Lyuboslav Balew",
+    "license": "ISC",
+    "dependencies": {
+        "colors": "^1.4.0",
+        "figlet": "^1.5.0"
+    }
+}
