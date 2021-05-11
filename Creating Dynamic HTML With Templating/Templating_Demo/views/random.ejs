@@ -1,6 +1,7 @@
 <%- include('partials/head') %>
 
-<body>
+
+    <%- include('partials/navbar') %>
     <h1> Your random number is
         <%= number %>
     </h1>
@@ -9,7 +10,5 @@
         <%= number % 2 === 0 ? 'EVEN' : 'ODD' %>
     </h3>
 
-</body>
-
-</html>
+    <%- include('partials/footer') %>
 <!-- Make templates as stupid(as a simple) as possible-->
